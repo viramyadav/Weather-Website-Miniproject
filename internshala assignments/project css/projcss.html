@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthybody</title>
+  <link rel="icon" type="image/x-icon" href="https://png.pngtree.com/template/20190926/ourmid/pngtree-medical-pharmacy-heart-healthcare-logo-vector-graphic-design-image_309769.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="logoimg">
+        <img src="https://png.pngtree.com/template/20190926/ourmid/pngtree-medical-pharmacy-heart-healthcare-logo-vector-graphic-design-image_309769.jpg" alt="My Blog Logo">
+      </div>
+    <div class="logo">READ HEALTHY, BE HEALTHY !</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  </head>
+  <body class="day-mode">
+  <div class="container">
+    <label for="mode-switch" class="mode-label">Switch Mode:</label>
+    <input type="checkbox" id="mode-switch" class="toggle-input">
+    <label for="mode-switch" class="toggle-btn"></label>
+  </div>
+  
+  <script>
+    const modeSwitch = document.getElementById('mode-switch');
+    const body = document.body;
+  
+    modeSwitch.addEventListener('change', function() {
+      if (this.checked) {
+        body.classList.remove('day-mode');
+        body.classList.add('night-mode');
+      } else {
+        body.classList.remove('night-mode');
+        body.classList.add('day-mode');
+      }
+    });
+  </script>
+  
+
+  <main>
+    <section id="home">
+      <h1 class="welcome">Welcome to world of Health</h1>
+      <br>
+      <br>
+    
+    </section>
+    
+      <span><h2>Latest Projects...</h2></span>
+      <br>
+      <br>
+    <section id="container">
+      <div class="blog-post">
+      <img src="https://static.vecteezy.com/system/resources/previews/005/024/692/non_2x/man-workout-in-gym-for-healthy-llifestyle-free-vector.jpg" alt="fitness" width="200" height="80">
+      <br>
+      <br>
+      <h3>ACE Fitness</h3>
+      <br>
+      <p>The American Council on Exercise (ACE) hosts this fitness and healthy lifestyle blog. You don’t need to be an Olympic athlete to implement these wellness tips! The ACE Fitness blog has accessible workouts everyday people can do at home. From fun family workouts that parents and kids can do together to targeted fitness and stress-reduction tips for your age group, this blog will encourage you to make your health a priority, without a gym membership.</p>
+    </div>
+    <div class="blog-post">
+      <img src="https://static01.nyt.com/images/2016/08/18/well/well_nutrition_for_runner-slide-HUAP/well_nutrition_for_runner-slide-HUAP-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="running for health" width="150" height="80">
+      <br>
+      <br>
+      <h3>Running on Real Food</h3>
+      <br>
+      <p>This plant-based food blog isn’t just for vegans! Here you’ll find recipes designed to fuel your body with whole foods without sacrificing flavor. Whether you tickle your taste buds with No-Bake Brownie Bites or Vegan Black-Bean Burritos, Running on Real Food has the simple recipes you need to create healthy and delicious meals at home.</p>
+    </div>
+    <div class="blog-post">
+      <img src="https://static.vecteezy.com/system/resources/previews/017/352/737/non_2x/healthy-food-diet-for-life-nutrition-modern-balanced-diet-isolated-flat-cartoon-illustration-vector.jpg" alt="Nutrition" width="150" height="80">
+      <br>
+      <br>
+      <h3>Nutrition Stripped</h3>
+      <br>
+      <p>After migraines and lethargy led her to rock bottom, dietician and nutritionist McKel Hill finally found her calling: the world of nutrition. She launched Nutrition Stripped as a way to encourage readers to experience their bodies as they were meant to function. She does this through lifestyle articles, recipes, interviews and other handy resources.</p>
+    </div>
+    <div class="blog-post">
+      <img src="https://img.freepik.com/free-vector/person-practicing-yoga-mental-body-wellness_74855-20679.jpg" alt="Girl in a jacket" width="150" height="80">
+      <br>
+      <br>
+      <h3>Well+Good</h3>
+      <br>
+      <p>Alexia Brue and Melisse Gelula are co-founders of Well+Good. They launched the company as a premiere lifestyle and news publication dedicated to the wellness scene. The blog keeps up with trend-spotting on the healthy living beat while reporting on modern nutrition, natural beauty, boutique fitness and more.</p>
+    </div>
+    <div class="blog-post">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/016/399/187/small/immune-system-concept-with-couple-figth-against-viruses-free-vector.jpg" alt="immunity" width="210" height="80">
+      <br>
+      <br>
+      <h3>Everyday Health</h3>
+      <br>
+      <p>Everyday Health covers health from A to Z—literally! This comprehensive site is a go-to resource for a wide range of symptoms and illnesses, as well as the latest news on developments in healthcare and breakthroughs in diseases. But the fun doesn’t stop there. Everyday Health also offers articles on mental and emotional health. Add in health tools like a symptom checker, meal planner and diabetes journal, and it’s easy to see that this site has something for everyone.</p>
+    </div></section>
+      
+  </main>
+
+  <footer>
+    <div class="footer-info">
+      <h3>About Us</h3>
+      <p>Learn about our mission and values.</p>
+    </div>
+    <div class="footer-info">
+      <h3>Services</h3>
+      <p>Discover the services we offer.</p>
+    </div>
+    <div class="footer-info">
+      <h3>Contact</h3>
+      <p>Get in touch with us!</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
